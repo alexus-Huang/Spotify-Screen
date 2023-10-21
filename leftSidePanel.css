@@ -8,6 +8,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 /* Left side of the app */
