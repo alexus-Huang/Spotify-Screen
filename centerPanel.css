@@ -19,6 +19,7 @@
     color: black;
 }
 .topLayerSelection{
+    border-radius: 5%;
     margin:20px 0px 0px 10px;
     display: flex;
     align-items: center;
@@ -27,3 +28,27 @@
 }
 
 /* Middle Layer */
+#middleLayer{
+    margin:20px 0px 0px 10px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.middleLayerSelection{
+    background-color: antiquewhite;
+    width: 10%;
+    height: 20%;
+}
+.middleLayerSelection:not(:first-child){
+    margin-left: 19px;
+}
+.middleLayerSelection img{
+    border-radius: 5%;
+    margin-top:10px;
+    width:50%;
+    height:50%;
+}
